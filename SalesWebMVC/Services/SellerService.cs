@@ -48,9 +48,9 @@ namespace SalesWebMVC.Services
 
             }
             try 
-            { 
-            _context.Update(obj);
-            _context.SaveChanges();
+            {
+                _context.Update(obj);
+                _context.SaveChanges();
             }
             catch(DbCurrencyException e)
             {
